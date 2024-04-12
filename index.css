@@ -1,26 +1,23 @@
+
+Copy code
 * {
     box-sizing: border-box;
-}    
+}
 
 body {
     margin: 0;
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     background-size: cover;
-    color: fff;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0px 0px 20px #aaaaaa;
+    text-shadow: none;
 }
 
 main {
     padding: 15px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-div.top {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -66,12 +63,13 @@ p.weather-city {
     margin-top: -15px;
     font-size: 1.2rem;
 }
+
 p.weather-temp {
     margin: 0;
     font-size: 1.7rem;
     margin-left: -10px;
 }
 
-p#author (
+p#author {
     font-size: 1rem;
-)
+}
